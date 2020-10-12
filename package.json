@@ -16,8 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:dev": "cross-env REACT_APP_ENV=dev react-scripts start",
-    "start:prod": "cross-env REACT_APP_ENV=prod react-scripts start",
+    "start:dev": "cross-env REACT_APP_STAGE=dev react-scripts start",
+    "start:prod": "cross-env REACT_APP_STAGE=prod react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"
   },

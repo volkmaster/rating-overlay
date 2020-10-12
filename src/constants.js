@@ -1,8 +1,8 @@
-const env = process.env.REACT_APP_ENV;
+const stage = process.env.REACT_APP_STAGE;
 export const API_URL =
-  env === "prod"
+  stage === "prod"
     ? "https://v8wewnto9g.execute-api.eu-west-1.amazonaws.com/production"
-    : env === "dev"
+    : stage === "dev"
     ? "https://kjvs0gja0i.execute-api.eu-west-1.amazonaws.com/development"
     : "http://localhost:5000";
 
