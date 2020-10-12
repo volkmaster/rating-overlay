@@ -1,16 +1,21 @@
 # Age of Empires II Definitive Edition Stream Overlay UI
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d9277d1-c787-46b3-90a1-ca424fd437c5/deploy-status)](https://app.netlify.com/sites/ageofoverlays/deploys)
+
 ## Install
 
-`yarn install`
+```
+yarn install
+```
 
-### Run
+## Run
 
-Running with different APIs:
+```
+yarn start
+```
 
-- local server: `yarn start`
-- development AWS server: `yarn start: dev`
-- production AWS server: `yarn start: prod`
+To run the app in a specific stage, run:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+REACT_APP_STAGE=<stage: dev/prod> yarn start
+```

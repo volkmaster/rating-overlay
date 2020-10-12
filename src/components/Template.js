@@ -223,7 +223,7 @@ const Template = ({ match, players }) => {
             <g
               transform={`translate(${
                 i === 0
-                  ? WIDTH / 2 - 75
+                  ? WIDTH / 2 - 80
                   : "rank" in player
                   ? WIDTH / 2 + 35 + 6 * player.rank.toString().length
                   : WIDTH / 2 + 40
