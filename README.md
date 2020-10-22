@@ -17,5 +17,5 @@ yarn start
 To run the app in a specific stage, run:
 
 ```
-REACT_APP_STAGE=<stage: dev/prod> yarn start
+yarn start:<stage: dev/prod>
 ```

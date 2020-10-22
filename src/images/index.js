@@ -1,4 +1,5 @@
-import Background from "./background";
+// import Background from "./background";
+import Background from "./Background.png";
 import Swords from "./swords";
 import AztecsLeft from "./AztecsLeft.png";
 import AztecsRight from "./AztecsRight.png";

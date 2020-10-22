@@ -7,7 +7,7 @@ export const getCivilizationImage = (civilization, orientation) => {
 export const getCountryImage = (player) =>
   `https://raw.githubusercontent.com/lipis/flag-icon-css/master/flags/1x1/${player.country.toLowerCase()}.svg`;
 
-export const getGameType = (match) => {
+export const getMatchType = (match) => {
   switch (match.leaderboard) {
     case "Unranked":
       return "U";
